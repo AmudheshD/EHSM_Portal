@@ -1,0 +1,277 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	controllerName="test.routing-sample.controller.ViewFrom" displayBlock="true">
+	<App id="idAppControl">
+		<pages>
+			<Page >
+				<content>
+					<!--<Button text="LOGIN" class="btn-1" press="onPress"/>-->
+					<html:div class="main">
+						<html:h1>Invest in digital transformation for your business with us</html:h1>
+						<html:h2>Powered by Intellect, Driven by Values</html:h2>
+						<html:h3>Are you a looking for ERP solutions? Connect with our experts now</html:h3>
+						<html:div class="contact">
+							<html:div class="img-contact"></html:div>
+							<html:div class="form-main">
+								<html:input class="main-inp" placeholder="Enter your mail id" type="text"></html:input>
+								<html:button class="btn-main" type="submit">
+									Book a demo Now</html:button>
+							</html:div>
+						</html:div>
+						<html:div class="social-menu">
+							<html:ul>
+								<html:li>
+									<html:a href="#" target="blank">
+										<html:i class="fa-solid fa-square-share-nodes"></html:i>
+									</html:a>
+								</html:li>
+								<html:li>
+									<html:a href="#" target="blank">
+										<html:i class="fa-solid fab fa-mobile-screen"></html:i>
+									</html:a>
+								</html:li>
+								<html:li>
+									<html:a href="#" target="blank">
+										<html:i class="fa-solid fab fa-chart-simple"></html:i>
+									</html:a>
+								</html:li>
+								<html:li>
+									<html:a href="#">
+										<html:i class="fa-solid fab fa-cloud-arrow-down"></html:i>
+									</html:a>
+								</html:li>
+								<html:li>
+									<html:a href="#">
+										<html:i class="fa-solid fab fa-gears"></html:i>
+									</html:a>
+								</html:li>
+							</html:ul>
+							<html:div class="cont-socialmenu-heading">
+								<Text class="SM-p1" text="Social"/>
+								<Text class="SM-p1 ic2" text="Mobile"/>
+								<Text class="SM-p1 ic3" text="Analytics"/>
+								<Text class="SM-p1 ic4" text="Cloud"/>
+								<Text class="SM-p1 ic5" text="IOT"/>
+							</html:div>
+						</html:div>
+						</html:div>
+						<html:div class="p2-main">
+							<html:h1 class="p2-main-hed">What is SAP ERP</html:h1>
+							<html:div class="sap-exp">
+								<html:div class="img-sap"></html:div>
+								<html:div class="sap-cont">
+									<html:p>SAP's various ERP products enable its customers to run their business processes, including accounting, sales, production, HR and
+										finance, in an integrated environment, with data from each module stored in a central database. The close integration and common data store
+										ensure that information flows from one SAP ERP component to another without the need for redundant data entry and help enforce financial,
+										process and legal controls.</html:p>
+								</html:div>
+							</html:div>
+							<html:div class="sub-hed">
+								<html:h1 class="p2-hed">Feature of SAP ERP</html:h1>
+							</html:div>
+							<html:div class="feature-flex">
+								<html:div class="feature-list">
+									<html:p>Asset management</html:p>
+									<html:p class="point1">Finance</html:p>
+									<html:p class="point1">Manufacturing</html:p>
+									<html:p class="point1">R-D Engineering</html:p>
+								</html:div>
+								<html:div class="feature-list1">
+									<html:p>Sales and Service</html:p>
+									<html:p class="point1">Sourcing</html:p>
+									<html:p class="point1">Procurement</html:p>
+									<html:p class="point1">Supply chain</html:p>
+								</html:div>
+							</html:div>
+						</html:div>
+						<html:div class="p3-main">
+							<html:div class="main-hed-p3">
+								<html:h1 class="main-hed-serv">
+									Our Services</html:h1>
+							</html:div>
+							<html:div class="cont1">
+								<html:div class="item1 card">
+									<html:div class="for-img">
+										<html:img src="./images/Customer.png" alt="" class="img-p3"></html:img>
+									</html:div>
+									<html:div class="content">
+										<html:h1 class="title">Customer</html:h1>
+										<html:p class="des">
+											click the below button to login</html:p>
+										<button class="btn" type="submit" text="Login"></button>
+									</html:div>
+								</html:div>
+								<html:div class="item2 card">
+									<html:div class="for-img">
+										<html:img src="./images/Vendor.png" alt="" class="img-p3"></html:img>
+									</html:div>
+									<html:div class="content">
+										<html:h1 class="title">Vendor</html:h1>
+										<html:p class="des">
+											click the below button to login</html:p>
+										<button class="btn" type="submit" text="Login"></button>
+									</html:div>
+								</html:div>
+								<html:div class="item3 card">
+									<html:div class="for-img">
+										<html:img src="./images/Employee.png" alt="" class="img-p3"></html:img>
+									</html:div>
+									<html:div class="content">
+										<html:h1 class="title">Employee</html:h1>
+										<html:p class="des">
+											click the below button to login</html:p>
+										<button class="btn" type="submit" text="Login"></button>
+									</html:div>
+								</html:div>
+								<html:div class="item4 card">
+									<html:div class="for-img">
+										<html:img src="./images/Maintenance.png" alt="" class="img-p3"></html:img>
+									</html:div>
+									<html:div class="content">
+										<html:h1 class="title">Maintenance</html:h1>
+										<html:p class="des">
+											Maintenance related activities of an organization</html:p>
+										<button class="btn" type="submit" text="Login" press="onPress"></button>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="cont2">
+								<html:div class="item5 card">
+									<html:div class="for-img">
+										<html:img src="./images/Shopfloor.png" alt="" class="img-p3"></html:img>
+									</html:div>
+									<html:div class="content">
+										<html:h1 class="title">Shopfloor</html:h1>
+										<html:p class="des">
+											click the below button to login</html:p>
+										<button class="btn" type="submit" text="Login"></button>
+									</html:div>
+								</html:div>
+								<html:div class="item6 card">
+									<html:div class="for-img">
+										<html:img src="./images/EHSM.png" alt="" class="img-p3"></html:img>
+									</html:div>
+									<html:div class="content">
+										<html:h1 class="title">EHSM</html:h1>
+										<html:p class="des">
+											click the below button to login</html:p>
+										<button class="btn" type="submit" text="Login"></button>
+									</html:div>
+								</html:div>
+								<html:div class="item7 card">
+									<html:div class="for-img">
+										<html:img src="./images/Quality.png" alt="" class="img-p3"></html:img>
+									</html:div>
+									<html:div class="content">
+										<html:h1 class="title">Quality</html:h1>
+										<html:p class="des">
+											click the below button to login</html:p>
+										<button class="btn" type="submit" text="Login"></button>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+						<html:div class="p4-main">
+							<html:div class="p4-hed-cont">
+								<html:h1>Want to try
+									<html:mark class="p4-highlight">
+										<html:span class="p4-highlight-color">
+											SAP ERP for your business
+										</html:span>
+									</html:mark>
+									?
+								</html:h1>
+								<html:h2>Get our experts working for you</html:h2>
+							</html:div>
+							<html:div class="flex-main-cont">
+								<html:div class="flex-left-cont">
+									<html:div class="p4-mail">
+										<html:div class="mail-img">
+											<html:img src="./images/mail.png" class="p4-sm-img" alt=""></html:img>
+										</html:div>
+										<html:div class="mail-cont">
+											<html:h2>damudhesh@kaartech.com</html:h2>
+										</html:div>
+									</html:div>
+									<html:div class="p4-phone">
+										<html:img src="./images/phone.png" class="p4-sm-img1" alt=""></html:img>
+										<html:h2>+91 7639142229</html:h2>
+										<!--<html:h2>0422-4388765</html:h2>-->
+									</html:div>
+								</html:div>
+								<html:div class="flex-Right-cont">
+									<html:div class="p4-form-cont">
+										<html:h1>Enter the details</html:h1>
+										<html:form action="#">
+											<html:label class="p4-lable" for="#">Full name</html:label>
+											<html:input type="text" class="p4-input" placeholder="Type here"></html:input>
+											<html:label class="p4-lable" for="#">Work mail Id</html:label>
+											<html:input type="text" class="p4-input" placeholder="Type here"></html:input>
+											<html:label class="p4-lable" for="#">Message</html:label>
+											<html:textarea placeholder="Enter your quries here" name="message" id="message" rows="5"></html:textarea>
+											<html:button class="p4-btn">Send Us</html:button>
+										</html:form>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+						<html:footer class="fotter">
+							<html:div class="nav-list">
+								<Text class="fotter-header" text="Navigation"></Text>
+								<Text class="fotter-item" text="Home"></Text>
+								<Text class="fotter-item" text="Why SAP ERP"></Text>
+								<Text class="fotter-item" text="Our Services"></Text>
+								<Text class="fotter-item" text="Contact us"></Text>
+							</html:div>
+							<html:div class="portals">
+								<Text class="fotter-header" text="Services"></Text>
+								<html:div class="portal-content">
+									<html:div class="portal-img">
+										<html:img src="./images/Customer.png" alt="" class="img-p5"></html:img>
+										<html:img src="./images/Vendor.png" alt="" class="img-p5"></html:img>
+										<html:img src="./images/Employee.png" alt="" class="img-p5"></html:img>
+										<html:img src="./images/Maintenance.png" alt="" class="img-p5"></html:img>
+										<html:img src="./images/Shopfloor.png" alt="" class="img-p5"></html:img>
+										<html:img src="./images/Quality.png" alt="" class="img-p5"></html:img>
+										<html:img src="./images/EHSM.png" alt="" class="img-p5"></html:img>
+									</html:div>
+									<html:div class="portal-list">
+										<Text class="fotter-item" text="Customer"></Text>
+										<Text class="fotter-item" text="Vendor"></Text>
+										<Text class="fotter-item" text="Employee"></Text>
+										<Text class="fotter-item" text="Maintenance"></Text>
+										<Text class="fotter-item" text="Shop Floor"></Text>
+										<Text class="fotter-item" text="Quality"></Text>
+										<Text class="fotter-item" text="EHSM"></Text>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="contact-info">
+								<Text class="fotter-header" text="Contact us"></Text>
+								<Text class="fotter-header2" text="Phone"></Text>
+								<Text class="fotter-item" text="7639142229"></Text>
+								<Text class="fotter-header2" text="Email"></Text>
+								<Text class="fotter-item" text="damudhesh@kaartech.com"></Text>
+							</html:div>
+							<html:div class="hero">
+								<Text class="fotter-header" text="Follow us!"></Text>
+								<html:div class="social-links">
+									<html:a href="">
+										<html:i class="fab fa-facebook-f"></html:i>
+									</html:a>
+									<html:a href="">
+										<html:i class="fab fa-instagram"></html:i>
+									</html:a>
+									<html:a href="">
+										<html:i class="fab fa-twitter"></html:i>
+									</html:a>
+									<html:a href="">
+										<html:i class="fab fa-linkedin-in"></html:i>
+									</html:a>
+								</html:div>
+							</html:div>
+						</html:footer>
+					</content>
+				</Page >
+			</pages>
+		</App>
+	</mvc:View>

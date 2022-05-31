@@ -1,0 +1,52 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="test.routing-sample.controller.ViewTo"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages displayBlock="true">
+			<Page >
+				<content>
+					<Button text="back" press="onNavBack"/>
+					<html:div class="parent">
+						<html:div class="child1">
+							<html:div class="centerelements">
+								<html:div class="plant-login-image"></html:div>
+								<html:h1 class="plant-cont1">Welcome to </html:h1>
+								<html:h1 class="plant-cont">Plant Maintanance</html:h1>
+								<html:p class="plant-sub-cont">Hub for all maintenance related activities
+								</html:p>
+							</html:div>
+						</html:div>
+						<html:div class="child2">
+							<html:div class="container">
+								<html:div class="signup-container">
+									<html:h1 class="heading-primary">Portal Logon
+									</html:h1>
+									<html:p class="text-mute">Enter your login credentials</html:p>
+									<html:form class="signup-form">
+										<html:lable class="inp">
+											<!--<html:input type="email" class="input-text" id="" placeholder="hey"/>-->
+											<Input id="user" class="input-text"></Input>
+											<html:span class="label">User ID</html:span>
+											<html:span class="input-icon">
+												<html:i class="fa-solid fa-envelope"></html:i>
+											</html:span>
+										</html:lable>
+										<html:label class="inp">
+											<!--<html:input type="password" class="input-text" placeholder="hey" id="pass"/>-->
+											<Input id="pass" type="Password" class="input-text"></Input>
+											<html:span class="label">Password</html:span>
+											<html:span class="input-icon input-icon-password">
+												<html:i class="fa-solid fa-eye"></html:i>
+											</html:span>
+										</html:label>
+										<!--<html:button class="btn btn-login" onclick="onPress">Login</html:button>-->
+										<Button text="LOGIN" class="btn-1" press="onPress"/>
+									</html:form>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
